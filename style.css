@@ -1,0 +1,528 @@
+:root{
+    --background:#202023;
+    --eugene03tpm:#e4e4e4;
+    --workandgithubcolor:#e4e4e4;
+    --loveu:#6CFFE5;
+    --infoaboutmebackground:rgba(75, 75, 75, 0.31);;
+    --infoaboutmetext:#e4e4e4;
+    --eugenemaksymovych_bio_iloveit_socialmedia:#e4e4e4;
+    --text:#e4e4e4;
+    --sociallinks: #6CFFE5;
+}
+
+:root{
+    --work_github_tolshina:100;
+    --work_github_razmer:16px;
+    --loveu_tolshina:100;
+    --loveu_razmer:16px;
+    --eugene03tpmtext_razmer:16px;
+    --eugene03tpmtext_tolshina:100;
+    --heartshirina:290px;
+    --heartvisota:290px;
+    --infoaboutme_shirina:100px;
+    --infoaboutme_visota:40px;
+    --infoaboutme_border:28px;
+    --infoaboutmetextsize:16px;
+    --eugenemaksymovych_bio_iloveit_socialmedia_tolshina:300;
+    --eugenemaksymovych_bio_iloveit_socialmedia_razmer:24px;
+    --text_tolshina:100;
+    --text_razmer:16px;
+    --inst_behance_tg_gh_tolshina:100;
+    --inst_behance_tg_gh_razmer:16px;
+    --logovisota: 25px;
+    --logoshirina: 30px;
+}
+/* Общие настройки для всего документа */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin:auto;
+    padding:0;
+    background-color: var(--background);
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    opacity: 0;
+    animation: ani 2.5s forwards;
+}
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.me{
+    width: 290px;
+    margin-top: 20px;
+}
+
+.bio{
+    width: 290px;
+    margin-top: 20px;
+}
+
+.loveit{
+   width: 290px;
+   margin-top: 20px;
+}
+
+.social{
+    width: 290px;
+    margin-top: 20px;
+}
+
+.heart{
+    width: 290px;
+}
+
+.info_about_me{
+    width: 290px;
+}
+
+.maindocument{
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Общие настройки для всего документа */
+
+/**/
+
+/* Header */
+
+.site-header1{
+    display: none;
+    width: 100%;
+}
+
+.site-header{
+    width: 100%;
+    position: fixed;
+    top: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+.work{
+    color: var(--workandgithubcolor);
+    font-size: var(--work_github_razmer);
+    font-weight: var(--work_github_tolshina);
+}
+
+.git{
+    color: var(--workandgithubcolor);
+    font-size: var(--work_github_razmer);
+    font-weight: var(--work_github_tolshina);
+    padding-left: 10px;
+}
+
+.main{
+    color: var(--eugene03tpm);
+    font-size: var(--eugene03tpmtext_razmer);
+    font-weight: var(--eugene03tpmtext_tolshina);
+}
+
+.loveu{
+    color: var(--loveu);
+    font-size: var(--loveu_razmer);
+    font-weight: var(--loveu_tolshina);
+}
+
+
+/* Header */
+
+/* */
+
+/* Main page */
+
+.heart{
+    height: var(--heartvisota);
+    width: var(--heartshirina);
+    
+}
+
+.info_about_me{
+    display: flex;
+    background-color: var(--infoaboutmebackground);
+    border-radius: var(--infoaboutme_border);
+    height: var(--infoaboutme_visota);
+    width: 310px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.info_about_me_text{
+    color: var(--infoaboutmetext);
+    font-size: var(--infoaboutmetextsize);
+    text-align: center;
+}
+
+.me_heading{
+    color: var(--eugenemaksymovych_bio_iloveit_socialmedia);
+    font-weight: var(--eugenemaksymovych_bio_iloveit_socialmedia_tolshina);
+    font-size: var(--eugenemaksymovych_bio_iloveit_socialmedia_razmer);
+}
+
+.me_text{
+    color: var(--text);
+    font-weight: var(--text_tolshina);
+    font-size: var(--text_razmer);
+}
+
+.bio_heading{
+    color: var(--eugenemaksymovych_bio_iloveit_socialmedia);
+    font-weight: var(--eugenemaksymovych_bio_iloveit_socialmedia_tolshina);
+    font-size: var(--eugenemaksymovych_bio_iloveit_socialmedia_razmer);
+    
+}
+
+.bio_text{
+    color: var(--text);
+    font-weight: var(--text_tolshina);
+    font-size: var(--text_razmer);
+}
+
+.loveit_heading{
+    color: var(--eugenemaksymovych_bio_iloveit_socialmedia);
+    font-weight: var(--eugenemaksymovych_bio_iloveit_socialmedia_tolshina);
+    font-size: var(--eugenemaksymovych_bio_iloveit_socialmedia_razmer);
+}
+
+.loveit_text{
+    font-weight: var(--text_tolshina);
+    font-size: var(--text_razmer);
+    color: var(--text);
+}
+
+/* Main page */
+
+/* */
+
+/* Social */
+
+
+.social_heading{
+    color: var(--eugenemaksymovych_bio_iloveit_socialmedia);
+    font-weight: var(--eugenemaksymovych_bio_iloveit_socialmedia_tolshina);
+    font-size: var(--eugenemaksymovych_bio_iloveit_socialmedia_razmer);
+}
+
+.links{
+    width: 290px;
+}
+
+.logo{
+    height: var(--logovisota);
+    width: var(--logoshirina)
+}
+
+/* Inst */
+
+.instlink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    padding-bottom: 5px;
+}
+
+.instlogo{
+    padding-right: 5px;
+}
+
+.inst{
+    color: var(--sociallinks);
+    font-weight: var(--inst_behance_tg_gh_tolshina);
+    font-size: var(--inst_behance_tg_gh_size);
+}
+
+/* Inst */
+
+
+
+/* Behance */
+
+.behancelink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    padding-bottom: 5px;
+}
+
+.behancelogo{
+    padding-right: 5px;
+}
+
+.behance{
+    color: var(--sociallinks);
+    font-weight: var(--inst_behance_tg_gh_tolshina);
+    font-size: var(--inst_behance_tg_gh_size);
+}
+
+/* Behance */
+
+
+
+/* Tg */
+
+.tglink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    padding-bottom: 5px;
+}
+
+.tglogo{
+    padding-right: 5px;
+}
+
+.tg{
+    color: var(--sociallinks);
+    font-weight: var(--inst_behance_tg_gh_tolshina);
+    font-size: var(--inst_behance_tg_gh_size);
+}
+
+/* Tg */
+
+
+
+/* Github */
+
+.githublink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    padding-bottom: 5px;
+}
+
+.githublogo{
+    padding-right: 5px;
+}
+
+.github{
+    color: var(--sociallinks);
+    font-weight: var(--inst_behance_tg_gh_tolshina);
+    font-size: var(--inst_behance_tg_gh_size);
+}
+
+/* Github */
+
+/* Social */
+
+@media screen and (min-width:425px) and (max-width:768px){
+    :root{
+        --work_github_tolshina:100;
+        --work_github_razmer:16px;
+        --loveu_tolshina:100;
+        --loveu_razmer:16px;
+        --eugene03tpmtext_razmer:16px;
+        --eugene03tpmtext_tolshina:300;
+        --heartshirina:137px;
+        --heartvisota:194px;
+        --infoaboutme_shirina:350px;
+        --infoaboutme_visota:40px;
+        --infoaboutme_border:28px;
+        --eugenemaksymovych_bio_iloveit_socialmedia_tolshina:600;
+        --eugenemaksymovych_bio_iloveit_socialmedia_razmer:24px;
+        --text_tolshina:100;
+        --text_razmer:16px;
+        --inst_behance_tg_gh_tolshina:100;
+        --inst_behance_tg_gh_razmer:16px;
+        --logovisota: 25px;
+        --logoshirina: 30px;
+    }
+    .maindocument{
+        width: 290px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .me{
+        width: 290px;
+        
+    }
+    
+    .bio{
+        width: 290px;
+        
+    }
+    
+    .loveit{
+       width: 290px;
+       
+    }
+    
+    .social{
+        width: 290px;
+        
+    }
+}
+
+@media screen and (max-width:768px){
+    .loveu{
+        display: none;
+    }
+
+    .site-header{
+        display: none;
+    }
+
+    .site-header1{
+        display: block;
+    }
+
+    .site-header1::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+      
+    .site-identity {
+        float: left;
+    }
+      
+    .site-identity h1 {
+        font-size: 20px;
+        margin: 20px;
+        display: inline-block;
+    }
+      
+    .site-navigation {
+        float: right;
+    }
+      
+    .site-navigation ul, li {
+        margin: 0px; 
+        padding: 0px;
+    }
+      
+    .site-navigation li {
+        display: inline-block;
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    :root{
+        --work_github_tolshina:100;
+        --work_github_razmer:16px;
+        --loveu_tolshina:100;
+        --loveu_razmer:16px;
+        --eugene03tpmtext_razmer:16px;
+        --eugene03tpmtext_tolshina:300;
+        --heartshirina:137px;
+        --heartvisota:194px;
+        --infoaboutme_shirina:350px;
+        --infoaboutme_visota:40px;
+        --infoaboutme_border:28px;
+        --eugenemaksymovych_bio_iloveit_socialmedia_tolshina:600;
+        --eugenemaksymovych_bio_iloveit_socialmedia_razmer:24px;
+        --text_tolshina:100;
+        --text_razmer:16px;
+        --inst_behance_tg_gh_tolshina:100;
+        --inst_behance_tg_gh_razmer:16px;
+        --logovisota: 25px;
+        --logoshirina: 30px;
+    }
+    .maindocument{
+        width: 290px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .me{
+        width: 290px;
+        
+    }
+    
+    .bio{
+        width: 290px;
+        
+    }
+    
+    .loveit{
+       width: 290px;
+       
+    }
+    
+    .social{
+        width: 290px;
+        
+    }
+}
+
+@media screen and (min-width:1024px){
+    :root{
+        --work_github_tolshina:100;
+        --work_github_razmer:16px;
+        --loveu_tolshina:100;
+        --loveu_razmer:16px;
+        --eugene03tpmtext_razmer:16px;
+        --eugene03tpmtext_tolshina:300;
+        --heartshirina:274px;
+        --heartvisota:388px;
+        --infoaboutme_shirina:350px;
+        --infoaboutme_visota:40px;
+        --infoaboutme_border:28px;
+        --eugenemaksymovych_bio_iloveit_socialmedia_tolshina:600;
+        --eugenemaksymovych_bio_iloveit_socialmedia_razmer:24px;
+        --text_tolshina:100;
+        --text_razmer:16px;
+        --inst_behance_tg_gh_tolshina:100;
+        --inst_behance_tg_gh_razmer:16px;
+        --logovisota: 25px;
+        --logoshirina: 30px;
+    }
+    .maindocument{
+        width: 290px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .me{
+        width: 290px;
+        
+    }
+    
+    .bio{
+        width: 290px;
+        
+    }
+    
+    .loveit{
+       width: 290px;
+       
+    }
+    
+    .social{
+        width: 290px;
+        
+    }
+}
