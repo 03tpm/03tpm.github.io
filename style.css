@@ -128,11 +128,19 @@ ul{
     font-weight: var(--work_github_tolshina);
 }
 
+.work:hover {
+    text-decoration: underline;
+}
+
 .git{
     color: var(--workandgithubcolor);
     font-size: var(--work_github_razmer);
     font-weight: var(--work_github_tolshina);
     padding-left: 10px;
+}
+
+.git:hover { 
+    text-decoration: underline;
 }
 
 .main{
@@ -256,6 +264,10 @@ ul{
     font-size: var(--inst_behance_tg_gh_size);
 }
 
+.inst:hover {
+    text-decoration: underline;
+}
+
 /* Inst */
 
 
@@ -278,6 +290,10 @@ ul{
     color: var(--sociallinks);
     font-weight: var(--inst_behance_tg_gh_tolshina);
     font-size: var(--inst_behance_tg_gh_size);
+}
+
+.behance:hover {
+    text-decoration: underline;
 }
 
 /* Behance */
@@ -304,6 +320,10 @@ ul{
     font-size: var(--inst_behance_tg_gh_size);
 }
 
+.tg:hover {
+    text-decoration: underline;
+}
+
 /* Tg */
 
 
@@ -326,6 +346,10 @@ ul{
     color: var(--sociallinks);
     font-weight: var(--inst_behance_tg_gh_tolshina);
     font-size: var(--inst_behance_tg_gh_size);
+}
+
+.github:hover {
+    text-decoration: underline;
 }
 
 /* Github */
