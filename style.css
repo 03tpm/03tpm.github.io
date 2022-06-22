@@ -91,7 +91,7 @@ ul{
 }
 
 .info_about_me{
-    width: 290px;
+    width: 300px;
 }
 
 .maindocument{
@@ -165,7 +165,7 @@ ul{
     background-color: var(--infoaboutmebackground);
     border-radius: var(--infoaboutme_border);
     height: var(--infoaboutme_visota);
-    width: 310px;
+    width: 300px;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
@@ -414,6 +414,11 @@ ul{
         margin: 0px;
     }
 
+    .social {
+        width: 290px;
+        padding-bottom: 20px;
+    }
+
     .heart {
         width: 339px;
         height: 480px;
@@ -466,7 +471,6 @@ ul{
     .social{
         width: 290px;
         padding-bottom: 20px;
-        
     }
 
     .heart {
@@ -521,7 +525,6 @@ ul{
     .social{
         width: 290px;
         padding-bottom: 20px;
-        
     }
 
     .heart {
