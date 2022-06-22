@@ -23,7 +23,7 @@
     --infoaboutme_visota:40px;
     --infoaboutme_border:28px;
     --infoaboutmetextsize:16px;
-    --eugenemaksymovych_bio_iloveit_socialmedia_tolshina:300;
+    --eugenemaksymovych_bio_iloveit_socialmedia_tolshina:600;
     --eugenemaksymovych_bio_iloveit_socialmedia_razmer:24px;
     --text_tolshina:100;
     --text_razmer:16px;
@@ -107,10 +107,6 @@ ul{
 
 /* Header */
 
-.site-header1{
-    display: none;
-    width: 100%;
-}
 
 .site-header{
     width: 100%;
@@ -383,6 +379,11 @@ ul{
         width: 290px;
         
     }
+
+    .heart {
+        width: 339px;
+        height: 480px;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -393,25 +394,9 @@ ul{
     .site-header{
         display: none;
     }
-
-    .site-header1{
-        display: block;
-    }
-
-    .site-header1::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
       
     .site-identity {
         float: left;
-    }
-      
-    .site-identity h1 {
-        font-size: 20px;
-        margin: 20px;
-        display: inline-block;
     }
       
     .site-navigation {
@@ -426,6 +411,11 @@ ul{
     .site-navigation li {
         display: inline-block;
         margin: 0px;
+    }
+
+    .heart {
+        width: 339px;
+        height: 480px;
     }
 }
 
@@ -476,6 +466,11 @@ ul{
         width: 290px;
         
     }
+
+    .heart {
+        width: 339px;
+        height: 480px;
+    }
 }
 
 @media screen and (min-width:1024px){
@@ -524,5 +519,10 @@ ul{
     .social{
         width: 290px;
         
+    }
+
+    .heart {
+        width: 339px;
+        height: 480px;
     }
 }
